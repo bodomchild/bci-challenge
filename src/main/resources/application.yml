@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:bci
+    username: bci
+    password: bcichallenge
+    driver-class-name: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+
+jwt:
+  issuer: bci
+  expiration: 86400000
+  secret: NcRfUjXnZr4u7x!A%D*G-KaPdSgVkYp3s5v8y/B?E(H+MbQeThWmZq4t7w9z$C&F
